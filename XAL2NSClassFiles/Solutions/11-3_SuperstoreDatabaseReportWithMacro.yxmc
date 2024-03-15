@@ -1,0 +1,671 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="LockInGui.LockInInput.LockInInput">
+        <Position x="114" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Connection>AdventureWorksDW2012</Connection>
+          <Query>dbo."DimProduct"</Query>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>DimProduct Connect</AnnotationText>
+          <DefaultAnnotationText>Source=AdventureWorksDW2012
+Query=dbo."DimProduct"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo LockIn="True">
+            <Field name="ProductKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="ProductAlternateKey" size="25" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="ProductSubcategoryKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="WeightUnitMeasureCode" size="3" source="In-DB:DB=AdventureWorksDW2012;" type="WString" />
+            <Field name="SizeUnitMeasureCode" size="3" source="In-DB:DB=AdventureWorksDW2012;" type="WString" />
+            <Field name="EnglishProductName" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="SpanishProductName" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="FrenchProductName" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="StandardCost" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="FinishedGoodsFlag" source="In-DB:DB=AdventureWorksDW2012;" type="Bool" />
+            <Field name="Color" size="15" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="SafetyStockLevel" source="In-DB:DB=AdventureWorksDW2012;" type="Int16" />
+            <Field name="ReorderPoint" source="In-DB:DB=AdventureWorksDW2012;" type="Int16" />
+            <Field name="ListPrice" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="Size" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="SizeRange" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="Weight" source="In-DB:DB=AdventureWorksDW2012;" type="Double" />
+            <Field name="DaysToManufacture" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="ProductLine" size="2" source="In-DB:DB=AdventureWorksDW2012;" type="WString" />
+            <Field name="DealerPrice" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="Class" size="2" source="In-DB:DB=AdventureWorksDW2012;" type="WString" />
+            <Field name="Style" size="2" source="In-DB:DB=AdventureWorksDW2012;" type="WString" />
+            <Field name="ModelName" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="LargePhoto" size="2147483647" source="In-DB:DB=AdventureWorksDW2012;" type="Blob" />
+            <Field name="EnglishDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="FrenchDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="ChineseDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="ArabicDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="HebrewDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="ThaiDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="GermanDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="JapaneseDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="TurkishDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="StartDate" source="In-DB:DB=AdventureWorksDW2012;" type="DateTime" />
+            <Field name="EndDate" source="In-DB:DB=AdventureWorksDW2012;" type="DateTime" />
+            <Field name="Status" size="7" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="LockInGui.LockInMacroInput.LockInMacroInput">
+        <Position x="114" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>FactInternetSales_Input</Name>
+          <Abbrev />
+          <ShowFieldMap value="True" />
+          <LockInInput>
+            <Configuration>
+              <Connection>AdventureWorksDW2012</Connection>
+              <Query>dbo."FactInternetSales"</Query>
+            </Configuration>
+          </LockInInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>FactInternetSales Macro</AnnotationText>
+          <DefaultAnnotationText>Source=AdventureWorksDW2012
+Query=dbo."FactInternetSales"</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo LockIn="True">
+            <Field name="ProductKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="OrderDateKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="DueDateKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="ShipDateKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="CustomerKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="PromotionKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="CurrencyKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="SalesTerritoryKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="SalesOrderNumber" size="20" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="SalesOrderLineNumber" source="In-DB:DB=AdventureWorksDW2012;" type="Byte" />
+            <Field name="RevisionNumber" source="In-DB:DB=AdventureWorksDW2012;" type="Byte" />
+            <Field name="OrderQuantity" source="In-DB:DB=AdventureWorksDW2012;" type="Int16" />
+            <Field name="UnitPrice" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="ExtendedAmount" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="UnitPriceDiscountPct" source="In-DB:DB=AdventureWorksDW2012;" type="Double" />
+            <Field name="DiscountAmount" source="In-DB:DB=AdventureWorksDW2012;" type="Double" />
+            <Field name="ProductStandardCost" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="TotalProductCost" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="SalesAmount" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="TaxAmt" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="Freight" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="CarrierTrackingNumber" size="25" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="CustomerPONumber" size="25" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="OrderDate" source="In-DB:DB=AdventureWorksDW2012;" type="DateTime" />
+            <Field name="DueDate" source="In-DB:DB=AdventureWorksDW2012;" type="DateTime" />
+            <Field name="ShipDate" source="In-DB:DB=AdventureWorksDW2012;" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInMacroInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="LockInGui.LockInJoin.LockInJoin">
+        <Position x="294" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinMode>INNER</JoinMode>
+          <JoinFields>
+            <JoinInfo connection="Left">
+              <Field field="ProductKey" />
+            </JoinInfo>
+            <JoinInfo connection="Right">
+              <Field field="ProductKey" />
+            </JoinInfo>
+          </JoinFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Inner Join</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo LockIn="True">
+            <Field name="ProductKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="ProductAlternateKey" size="25" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="ProductSubcategoryKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="WeightUnitMeasureCode" size="3" source="In-DB:DB=AdventureWorksDW2012;" type="WString" />
+            <Field name="SizeUnitMeasureCode" size="3" source="In-DB:DB=AdventureWorksDW2012;" type="WString" />
+            <Field name="EnglishProductName" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="SpanishProductName" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="FrenchProductName" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="StandardCost" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="FinishedGoodsFlag" source="In-DB:DB=AdventureWorksDW2012;" type="Bool" />
+            <Field name="Color" size="15" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="SafetyStockLevel" source="In-DB:DB=AdventureWorksDW2012;" type="Int16" />
+            <Field name="ReorderPoint" source="In-DB:DB=AdventureWorksDW2012;" type="Int16" />
+            <Field name="ListPrice" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="Size" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="SizeRange" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="Weight" source="In-DB:DB=AdventureWorksDW2012;" type="Double" />
+            <Field name="DaysToManufacture" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="ProductLine" size="2" source="In-DB:DB=AdventureWorksDW2012;" type="WString" />
+            <Field name="DealerPrice" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="Class" size="2" source="In-DB:DB=AdventureWorksDW2012;" type="WString" />
+            <Field name="Style" size="2" source="In-DB:DB=AdventureWorksDW2012;" type="WString" />
+            <Field name="ModelName" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="LargePhoto" size="2147483647" source="In-DB:DB=AdventureWorksDW2012;" type="Blob" />
+            <Field name="EnglishDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="FrenchDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="ChineseDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="ArabicDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="HebrewDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="ThaiDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="GermanDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="JapaneseDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="TurkishDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="StartDate" source="In-DB:DB=AdventureWorksDW2012;" type="DateTime" />
+            <Field name="EndDate" source="In-DB:DB=AdventureWorksDW2012;" type="DateTime" />
+            <Field name="Status" size="7" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="R_ProductKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="OrderDateKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="DueDateKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="ShipDateKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="CustomerKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="PromotionKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="CurrencyKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="SalesTerritoryKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="SalesOrderNumber" size="20" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="SalesOrderLineNumber" source="In-DB:DB=AdventureWorksDW2012;" type="Byte" />
+            <Field name="RevisionNumber" source="In-DB:DB=AdventureWorksDW2012;" type="Byte" />
+            <Field name="OrderQuantity" source="In-DB:DB=AdventureWorksDW2012;" type="Int16" />
+            <Field name="UnitPrice" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="ExtendedAmount" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="UnitPriceDiscountPct" source="In-DB:DB=AdventureWorksDW2012;" type="Double" />
+            <Field name="DiscountAmount" source="In-DB:DB=AdventureWorksDW2012;" type="Double" />
+            <Field name="ProductStandardCost" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="TotalProductCost" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="SalesAmount" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="TaxAmt" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="Freight" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="CarrierTrackingNumber" size="25" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="CustomerPONumber" size="25" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="OrderDate" source="In-DB:DB=AdventureWorksDW2012;" type="DateTime" />
+            <Field name="DueDate" source="In-DB:DB=AdventureWorksDW2012;" type="DateTime" />
+            <Field name="ShipDate" source="In-DB:DB=AdventureWorksDW2012;" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInJoin" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="LockInGui.LockInFormula.LockInFormula">
+        <Position x="426" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ValidateBeforeRun value="True" />
+          <FormulaFields>
+            <FormulaField field="OrderYear" type="Double" expression="YEAR(&quot;OrderDate&quot;)" />
+            <FormulaField field="SalesAmountValue" type="Float" expression="&quot;SalesAmount&quot;" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Calculate OrderYear and SalesAmountValue</AnnotationText>
+          <DefaultAnnotationText>OrderYear=YEAR("OrderDate")
+SalesAmountValue="SalesAmount"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo LockIn="True">
+            <Field name="ProductKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="ProductAlternateKey" size="25" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="ProductSubcategoryKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="WeightUnitMeasureCode" size="3" source="In-DB:DB=AdventureWorksDW2012;" type="WString" />
+            <Field name="SizeUnitMeasureCode" size="3" source="In-DB:DB=AdventureWorksDW2012;" type="WString" />
+            <Field name="EnglishProductName" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="SpanishProductName" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="FrenchProductName" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="StandardCost" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="FinishedGoodsFlag" source="In-DB:DB=AdventureWorksDW2012;" type="Bool" />
+            <Field name="Color" size="15" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="SafetyStockLevel" source="In-DB:DB=AdventureWorksDW2012;" type="Int16" />
+            <Field name="ReorderPoint" source="In-DB:DB=AdventureWorksDW2012;" type="Int16" />
+            <Field name="ListPrice" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="Size" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="SizeRange" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="Weight" source="In-DB:DB=AdventureWorksDW2012;" type="Double" />
+            <Field name="DaysToManufacture" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="ProductLine" size="2" source="In-DB:DB=AdventureWorksDW2012;" type="WString" />
+            <Field name="DealerPrice" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="Class" size="2" source="In-DB:DB=AdventureWorksDW2012;" type="WString" />
+            <Field name="Style" size="2" source="In-DB:DB=AdventureWorksDW2012;" type="WString" />
+            <Field name="ModelName" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="LargePhoto" size="2147483647" source="In-DB:DB=AdventureWorksDW2012;" type="Blob" />
+            <Field name="EnglishDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="FrenchDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="ChineseDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="ArabicDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="HebrewDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="ThaiDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="GermanDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="JapaneseDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="TurkishDescription" size="400" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="StartDate" source="In-DB:DB=AdventureWorksDW2012;" type="DateTime" />
+            <Field name="EndDate" source="In-DB:DB=AdventureWorksDW2012;" type="DateTime" />
+            <Field name="Status" size="7" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="R_ProductKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="OrderDateKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="DueDateKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="ShipDateKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="CustomerKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="PromotionKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="CurrencyKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="SalesTerritoryKey" source="In-DB:DB=AdventureWorksDW2012;" type="Int32" />
+            <Field name="SalesOrderNumber" size="20" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="SalesOrderLineNumber" source="In-DB:DB=AdventureWorksDW2012;" type="Byte" />
+            <Field name="RevisionNumber" source="In-DB:DB=AdventureWorksDW2012;" type="Byte" />
+            <Field name="OrderQuantity" source="In-DB:DB=AdventureWorksDW2012;" type="Int16" />
+            <Field name="UnitPrice" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="ExtendedAmount" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="UnitPriceDiscountPct" source="In-DB:DB=AdventureWorksDW2012;" type="Double" />
+            <Field name="DiscountAmount" source="In-DB:DB=AdventureWorksDW2012;" type="Double" />
+            <Field name="ProductStandardCost" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="TotalProductCost" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="SalesAmount" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="TaxAmt" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="Freight" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="V_String" />
+            <Field name="CarrierTrackingNumber" size="25" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="CustomerPONumber" size="25" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="OrderDate" source="In-DB:DB=AdventureWorksDW2012;" type="DateTime" />
+            <Field name="DueDate" source="In-DB:DB=AdventureWorksDW2012;" type="DateTime" />
+            <Field name="ShipDate" source="In-DB:DB=AdventureWorksDW2012;" type="DateTime" />
+            <Field name="OrderYear" source="In-DB:DB=AdventureWorksDW2012;" type="Double" />
+            <Field name="SalesAmountValue" source="In-DB:DB=AdventureWorksDW2012;" type="Float" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInFormula" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="LockInGui.LockInSelect.LockInSelect">
+        <Position x="114" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="EnglishProductName" selected="True" />
+            <SelectField field="OrderYear" selected="True" />
+            <SelectField field="SalesAmountValue" selected="True" rename="MetricValue" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Select SalesAmountValue</AnnotationText>
+          <DefaultAnnotationText>Select SalesAmountValue</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo LockIn="True">
+            <Field name="EnglishProductName" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="OrderYear" source="In-DB:DB=AdventureWorksDW2012;" type="Double" />
+            <Field name="MetricValue" source="In-DB:DB=AdventureWorksDW2012;" type="Float" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="LockInGui.LockInSummarize.LockInSummarize">
+        <Position x="294" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="EnglishProductName" action="GroupBy" rename="EnglishProductName" />
+            <SummarizeField field="OrderYear" action="GroupBy" rename="OrderYear" />
+            <SummarizeField field="MetricValue" action="Sum" rename="Sum_MetricValue" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Summarize SAV</AnnotationText>
+          <DefaultAnnotationText>Summarize SAV</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo LockIn="True">
+            <Field name="EnglishProductName" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="OrderYear" source="In-DB:DB=AdventureWorksDW2012;" type="Double" />
+            <Field name="Sum_MetricValue" source="In-DB:DB=AdventureWorksDW2012;" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInSummarize" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="LockInGui.LockInFormula.LockInFormula">
+        <Position x="426" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ValidateBeforeRun value="True" />
+          <FormulaFields>
+            <FormulaField field="MetricType" type="String" expression="'SalesAmount'" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>MetricType='SalesAmount'</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo LockIn="True">
+            <Field name="EnglishProductName" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="OrderYear" source="In-DB:DB=AdventureWorksDW2012;" type="Double" />
+            <Field name="Sum_MetricValue" source="In-DB:DB=AdventureWorksDW2012;" type="Double" />
+            <Field name="MetricType" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInFormula" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="LockInGui.LockInSummarize.LockInSummarize">
+        <Position x="294" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="EnglishProductName" action="GroupBy" rename="EnglishProductName" />
+            <SummarizeField field="OrderYear" action="GroupBy" rename="OrderYear" />
+            <SummarizeField field="MetricValue" action="Sum" rename="Sum_MetricValue" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Summarize OQ</AnnotationText>
+          <DefaultAnnotationText>Summarize OQ</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo LockIn="True">
+            <Field name="EnglishProductName" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="OrderYear" source="In-DB:DB=AdventureWorksDW2012;" type="Double" />
+            <Field name="Sum_MetricValue" source="In-DB:DB=AdventureWorksDW2012;" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInSummarize" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="LockInGui.LockInFormula.LockInFormula">
+        <Position x="426" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ValidateBeforeRun value="True" />
+          <FormulaFields>
+            <FormulaField field="MetricType" type="String" expression="'Quantity'" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>MetricType='Quantity'</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo LockIn="True">
+            <Field name="EnglishProductName" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="OrderYear" source="In-DB:DB=AdventureWorksDW2012;" type="Double" />
+            <Field name="Sum_MetricValue" source="In-DB:DB=AdventureWorksDW2012;" type="Double" />
+            <Field name="MetricType" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInFormula" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="LockInGui.LockInUnion.LockInUnion">
+        <Position x="114" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>ByName</Mode>
+          <FieldMode>All</FieldMode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Union In-DB</AnnotationText>
+          <DefaultAnnotationText>Union In-DB</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo LockIn="True">
+            <Field name="EnglishProductName" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="OrderYear" source="In-DB:DB=AdventureWorksDW2012;" type="Double" />
+            <Field name="Sum_MetricValue" source="In-DB:DB=AdventureWorksDW2012;" type="Double" />
+            <Field name="MetricType" size="255" source="In-DB:DB=AdventureWorksDW2012;" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInUnion" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="LockInGui.LockInMacroOutput.LockInMacroOutput">
+        <Position x="306" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output13</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Output</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInMacroOutput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="LockInGui.LockInSelect.LockInSelect">
+        <Position x="114" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="EnglishProductName" selected="True" />
+            <SelectField field="OrderQuantity" selected="True" rename="MetricValue" />
+            <SelectField field="OrderYear" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Select OrderQuantity</AnnotationText>
+          <DefaultAnnotationText>Select OrderQuantity</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo LockIn="True">
+            <Field name="EnglishProductName" size="50" source="In-DB:DB=AdventureWorksDW2012;" type="V_WString" />
+            <Field name="MetricValue" source="In-DB:DB=AdventureWorksDW2012;" type="Int16" />
+            <Field name="OrderYear" source="In-DB:DB=AdventureWorksDW2012;" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input In-DB (3)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output In-DB (13)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>11-3_SuperstoreDatabaseReportWithMacro</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (2)</Name>
+          <ToolId value="2" />
+          <Questions>
+            <Question>
+              <Type>LockInMacroInput</Type>
+              <Description>Macro Input In-DB (3)</Description>
+              <Name>Macro Input In-DB (3)</Name>
+              <ToolId value="3" />
+            </Question>
+            <Question>
+              <Type>LockInMacroOutput</Type>
+              <Description>Macro Output In-DB (13)</Description>
+              <Name>Macro Output In-DB (13)</Name>
+              <ToolId value="13" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="3" Selected="True" />
+        <Tool ToolId="13" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

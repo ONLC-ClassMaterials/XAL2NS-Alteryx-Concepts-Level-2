@@ -1,0 +1,423 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\XAL2NSClassFiles\Chapter-11\Product Info.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Product Info.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProductKey" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+            <Field name="ProductAlternateKey" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+            <Field name="ProductSubcategoryKey" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+            <Field name="WeightUnitMeasureCode" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+            <Field name="SizeUnitMeasureCode" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+            <Field name="EnglishProductName" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+            <Field name="StandardCost" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+            <Field name="FinishedGoodsFlag" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+            <Field name="Color" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+            <Field name="SafetyStockLevel" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+            <Field name="ReorderPoint" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+            <Field name="ListPrice" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+            <Field name="Size" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+            <Field name="SizeRange" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+            <Field name="Weight" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+            <Field name="DaysToManufacture" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+            <Field name="ProductLine" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+            <Field name="DealerPrice" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+            <Field name="Class" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+            <Field name="Style" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+            <Field name="ModelName" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+            <Field name="EnglishDescription" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+            <Field name="StartDate" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+            <Field name="EndDate" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\XAL2NSClassFiles\Chapter-11\Product Info.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="LockInGui.LockInStreamIn.LockInStreamIn">
+        <Position x="246" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Connection>AWDW</Connection>
+          <CreateMode>TempTable</CreateMode>
+          <Table />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>DimProduct</AnnotationText>
+          <DefaultAnnotationText>Source=AWDW
+Temporary Table</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInStreamIn" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="LockInGui.LockInInput.LockInInput">
+        <Position x="102" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Connection>AWDW</Connection>
+          <Query>dbo."FactInternetSales"</Query>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>FCT_InternetSales</AnnotationText>
+          <DefaultAnnotationText>Source=AWDW
+Query=dbo."FactInternetSales"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="LockInGui.LockInFilter.LockInFilter">
+        <Position x="246" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>OrderDate</Field>
+            <Operator>&gt;=</Operator>
+            <Operands>
+              <Operand>'2006-01-01'</Operand>
+            </Operands>
+          </Simple>
+          <ValidateBeforeRun value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>"OrderDate" &gt;= '2006-01-01'</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInFilter" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="LockInGui.LockInJoin.LockInJoin">
+        <Position x="378" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinMode>INNER</JoinMode>
+          <JoinFields>
+            <JoinInfo connection="Left">
+              <Field field="ProductKey" />
+            </JoinInfo>
+            <JoinInfo connection="Right">
+              <Field field="ProductKey" />
+            </JoinInfo>
+          </JoinFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Inner Join</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInJoin" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="LockInGui.LockInFormula.LockInFormula">
+        <Position x="114" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ValidateBeforeRun value="True" />
+          <FormulaFields>
+            <FormulaField field="OrderYear" type="Double" expression="YEAR(&quot;OrderDate&quot;)" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Calculate Year</AnnotationText>
+          <DefaultAnnotationText>OrderYear=YEAR("OrderDate")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="LockInGui.LockInSummarize.LockInSummarize">
+        <Position x="210" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="ProductName" action="GroupBy" rename="ProductName" />
+            <SummarizeField field="OrderYear" action="GroupBy" rename="OrderYear" />
+            <SummarizeField field="OrderQuantity" action="Sum" rename="Sum_OrderQuantity" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Aggregate OrderQuantity</AnnotationText>
+          <DefaultAnnotationText>Aggregate OrderQuantity</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInSummarize" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="LockInGui.LockInSample.LockInSample">
+        <Position x="306" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>10</N>
+          <Sort value="True">
+            <SortInfo>
+              <Field field="Sum_OrderQuantity" order="Descending" />
+            </SortInfo>
+          </Sort>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>First 10 records</AnnotationText>
+          <DefaultAnnotationText>First 10 records
+Sum_OrderQuantity - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInSample" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="LockInGui.LockInBrowse.LockInBrowse">
+        <Position x="438" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFileDataProfiling />
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <FirstNRecords>100</FirstNRecords>
+          <UseCache value="True" />
+          <DataFromCache>False</DataFromCache>
+          <CacheKey>69ebfcd38b34c0872220f5bedac45efd</CacheKey>
+          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_5020_0feb1e5878e3489db0438e609066ba0e_\..\Engine_2368_._AlteryxInDBBrowseCache_69ebfcd38b34c0872220f5bedac45efd.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 100 records
+Caching enabled</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInBrowse" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="LockInGui.LockInStreamOut.LockInStreamOut">
+        <Position x="438" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Sort value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Stream Out Data for File</AnnotationText>
+          <DefaultAnnotationText>Stream Out Data for File</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInStreamOut" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="558" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\XAL2NSClassFiles\Chapter-11\ProductSummary.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ProductSummary.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="LockInGui.LockInOutput.LockInOutput">
+        <Position x="438" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormatSpecificOptions />
+          <Table>ProductSummary</Table>
+          <CreateMode>Create</CreateMode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Table=ProductSummary</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInOutput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="LockInGui.LockInSelect.LockInSelect">
+        <Position x="474" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="EnglishProductName" selected="True" rename="ProductName" />
+            <SelectField field="OrderQuantity" selected="True" />
+            <SelectField field="OrderDate" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Select Relevant Columns</AnnotationText>
+          <DefaultAnnotationText>Select Relevant Columns</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="True" />
+      <Destination ToolID="5" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>11-2_SuperstoreDatabaseReport</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

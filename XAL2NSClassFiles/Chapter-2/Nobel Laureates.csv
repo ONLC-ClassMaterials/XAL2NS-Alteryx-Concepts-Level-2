@@ -1,0 +1,944 @@
+﻿Birth Country,Category,Country,Name,Nobel Laureats,Year
+Germany,Austria Chemistr,Germany,Richard Kuhn,1,1938
+Germany,Chemistr,Germany,Fritz Haber,1,1918
+Germany,Chemistr,Germany,Carl Bosch,1,1931
+Germany,Chemistr,Germany,Otto Hahn,1,1944
+Argentina,Chemistry,Argentina,Luis Federico Leloir,1,1970
+Australia,Chemistry,Australia,John Warcup Cornforth,1,1975
+Austria,Chemistry,Austria,Friderik Pregl,1,1923
+Austria,Chemistry,Austria,Richard Adolf Zsigmondy*,1,1925
+Austria,Chemistry,Austria,Richard Kuhn*,1,1938
+Austria,Chemistry,Austria,Max F. Perutz,1,1962
+Austria,Chemistry,Austria,Walter Kohn*,1,1998
+Russia,Chemistry,Belgium,Ilya Prigogine,1,1977
+Canada,Chemistry,Canada,William Giauque*,1,1949
+Canada,Chemistry,Canada,John C. Polanyi,1,1986
+Canada,Chemistry,Canada,Sidney Altman,1,1989
+Canada,Chemistry,Canada,Rudolph A. Marcus*,1,1992
+Germany,Chemistry,Canada,Gerhard Herzberg,1,1971
+United Kingdom,Chemistry,Canada,Michael Smith,1,1993
+Czech Republic,Chemistry,Czech Republic,Jaroslav Heyrovský,1,1959
+Denmark,Chemistry,Denmark,Jens Christian Skou,1,1997
+Egypt,Chemistry,Egypt,Ahmed Zewail,1,1999
+Finland,Chemistry,Finland,Artturi Ilmari Virtanen,1,1945
+France,Chemistry,France,Henri Moissan,1,1906
+France,Chemistry,France,Paul Sabatier,1,1912
+France,Chemistry,France,Victor Grignard,1,1912
+France,Chemistry,France,Frédéric Joliot,1,1935
+France,Chemistry,France,Irène Joliot-Curie,1,1935
+France,Chemistry,France,Jean-Marie Lehn,1,1987
+France,Chemistry,France,Yves Chauvin,1,2005
+Russian Poland,Chemistry,France,Marie Curie,1,1911
+Germany,Chemistry,Germany,Hermann Emil Fischer,1,1902
+Germany,Chemistry,Germany,Adolf von Baeyer,1,1905
+Germany,Chemistry,Germany,Eduard Buchner,1,1907
+Germany,Chemistry,Germany,Otto Wallach,1,1910
+Germany,Chemistry,Germany,Richard Willstätter,1,1915
+Germany,Chemistry,Germany,Walther Nernst,1,1920
+Germany,Chemistry,Germany,Richard Adolf Zsigmondy,1,1925
+Germany,Chemistry,Germany,Heinrich Otto Wieland,1,1927
+Germany,Chemistry,Germany,Adolf Otto Reinhold Windaus,1,1928
+Germany,Chemistry,Germany,Hans von Euler-Chelpin*,1,1929
+Germany,Chemistry,Germany,Hans Fischer,1,1930
+Germany,Chemistry,Germany,Friedrich Bergius,1,1931
+Germany,Chemistry,Germany,Adolf Butenandt,1,1939
+Germany,Chemistry,Germany,Kurt Alder,1,1950
+Germany,Chemistry,Germany,Otto Diels,1,1950
+Germany,Chemistry,Germany,Hermann Staudinger,1,1953
+Germany,Chemistry,Germany,Karl Ziegler,1,1963
+Germany,Chemistry,Germany,Manfred Eigen,1,1967
+Germany,Chemistry,Germany,Gerhard Herzberg*,1,1971
+Germany,Chemistry,Germany,Ernst Otto Fischer,1,1973
+Germany,Chemistry,Germany,Georg Wittig,1,1979
+Germany,Chemistry,Germany,Hartmut Michel,1,1988
+Germany,Chemistry,Germany,Johann Deisenhofer,1,1988
+Germany,Chemistry,Germany,Robert Huber,1,1988
+Germany,Chemistry,Germany,Gerhard Ertl,1,2007
+Latvia,Chemistry,Germany,Wilhelm Ostwald,1,1909
+Hungary,Chemistry,Hungary,George de Hevesy,1,1943
+Hungary,Chemistry,Hungary,George Andrew Olah*,1,1994
+Hungary,Chemistry,Hungary,Avram Hershko*,1,2004
+India,Chemistry,India,Venkatraman Ramakrishnan*,1,2009
+Hungary,Chemistry,Israel,Avram Hershko,1,2004
+Israel,Chemistry,Israel,Aaron Ciechanover,1,2004
+Israel,Chemistry,Israel,Ada E. Yonath,1,2009
+Italy,Chemistry,Italy,Giulio Natta,1,1963
+Japan,Chemistry,Japan,Kenichi Fukui,1,1981
+Japan,Chemistry,Japan,Hideki Shirakawa,1,2000
+Japan,Chemistry,Japan,Ryoji Noyori,1,2001
+Japan,Chemistry,Japan,Koichi Tanaka,1,2002
+Japan,Chemistry,Japan,Osamu Shimomura*,1,2008
+Latvia,Chemistry,Latvia,Wilhelm Ostwald,1,1909
+Lithuania,Chemistry,Lithuania,Aaron Klug*,1,1982
+Mexico,Chemistry,Mexico,Mario J. Molina*,1,1995
+Netherlands,Chemistry,Netherlands,Jacobus Henricus van 't Hoff,1,1901
+Netherlands,Chemistry,Netherlands,Peter Debye,1,1936
+Netherlands,Chemistry,Netherlands,Paul J. Crutzen,1,1995
+New Zealand,Chemistry,New Zealand,Ernest Rutherford*,1,1908
+New Zealand,Chemistry,New Zealand,Alan MacDiarmid*,1,2000
+Norway,Chemistry,Norway,Lars Onsager,1,1968
+Norway,Chemistry,Norway,Odd Hassel,1,1969
+Poland,Chemistry,Poland,Marie Sk?odowska-Curie*,1,1911
+Poland,Chemistry,Poland,Roald Hoffmann*,1,1981
+Republic Of China (Taiwan),Chemistry,Republic Of China (Taiwan),Yuan T. Lee*,1,1986
+Russia,Chemistry,Russia,Nikolay Semyonov,1,1956
+Russia,Chemistry,Russia,Ilya Prigogine*,1,1977
+Germany,Chemistry,Sweden,Hans von Euler-Chelpin,1,1929
+Sweden,Chemistry,Sweden,Svante Arrhenius,1,1903
+Sweden,Chemistry,Sweden,Theodor Svedberg,1,1926
+Sweden,Chemistry,Sweden,Arne Tiselius,1,1948
+Switzerland,Chemistry,Switzerland,Alfred Werner,1,1913
+Switzerland,Chemistry,Switzerland,Paul Karrer,1,1937
+Switzerland,Chemistry,Switzerland,Richard R. Ernst,1,1991
+Switzerland,Chemistry,Switzerland,Kurt Wüthrich,1,2002
+Yugoslavia,Chemistry,Switzerland,Leopold Ružic(ka*,1,1939
+Yugoslavia,Chemistry,Switzerland,Vladimir Prelog,1,1975
+Australia,Chemistry,United Kingdom,John Cornforth,1,1975
+Austria,Chemistry,United Kingdom,Max Perutz,1,1962
+India,Chemistry,United Kingdom,Venkatraman Ramakrishnan,1,2009
+Lithuania,Chemistry,United Kingdom,Aaron Klug,1,1982
+New Zealand,Chemistry,United Kingdom,Ernest Rutherford,1,1908
+United Kingdom,Chemistry,United Kingdom,William Ramsay,1,1904
+United Kingdom,Chemistry,United Kingdom,Frederick Soddy,1,1921
+United Kingdom,Chemistry,United Kingdom,Francis William Aston,1,1922
+United Kingdom,Chemistry,United Kingdom,Arthur Harden,1,1929
+United Kingdom,Chemistry,United Kingdom,Norman Haworth,1,1937
+United Kingdom,Chemistry,United Kingdom,Robert Robinson,1,1947
+United Kingdom,Chemistry,United Kingdom,Archer John Porter Martin,1,1952
+United Kingdom,Chemistry,United Kingdom,Richard Laurence Millington Synge,1,1952
+United Kingdom,Chemistry,United Kingdom,Cyril Norman Hinshelwood,1,1956
+United Kingdom,Chemistry,United Kingdom,Alexander R. Todd,1,1957
+United Kingdom,Chemistry,United Kingdom,Frederick Sanger,1,1958
+United Kingdom,Chemistry,United Kingdom,John Kendrew,1,1962
+United Kingdom,Chemistry,United Kingdom,Dorothy Crowfoot Hodgkin,1,1964
+United Kingdom,Chemistry,United Kingdom,George Porter,1,1967
+United Kingdom,Chemistry,United Kingdom,Ronald George Wreyford Norrish,1,1967
+United Kingdom,Chemistry,United Kingdom,Derek Harold Richard Barton,1,1969
+United Kingdom,Chemistry,United Kingdom,Geoffrey Wilkinson,1,1973
+United Kingdom,Chemistry,United Kingdom,Peter D. Mitchell,1,1978
+United Kingdom,Chemistry,United Kingdom,Frederick Sanger,1,1980
+United Kingdom,Chemistry,United Kingdom,Michael Smith*,1,1993
+United Kingdom,Chemistry,United Kingdom,Harold Kroto,1,1996
+United Kingdom,Chemistry,United Kingdom,John E. Walker,1,1997
+United Kingdom,Chemistry,United Kingdom,John Pople,1,1998
+Austria,Chemistry,United States,Walter Kohn,1,1998
+Canada,Chemistry,United States,William Giauque,1,1949
+Canada,Chemistry,United States,Henry Taube,1,1983
+Canada,Chemistry,United States,Sidney Altman,1,1989
+Egypt,Chemistry,United States,Ahmed H. Zewail,1,1999
+Hungary,Chemistry,United States,George Andrew Olah,1,1994
+Japan,Chemistry,United States,Osamu Shimomura,1,2008
+Korea,Chemistry,United States,Charles J. Pedersen,1,1987
+Mexico,Chemistry,United States,Mario J. Molina,1,1995
+New Zealand,Chemistry,United States,Alan MacDiarmid,1,2000
+Norway,Chemistry,United States,Lars Onsager,1,1968
+Poland,Chemistry,United States,Roald Hoffmann,1,1981
+Taiwan,Chemistry,United States,Yuan T. Lee,1,1986
+United States,Chemistry,United States,Theodore W. Richards,1,1914
+United States,Chemistry,United States,Irving Langmuir,1,1932
+United States,Chemistry,United States,Harold C. Urey,1,1934
+United States,Chemistry,United States,James B. Sumner,1,1946
+United States,Chemistry,United States,John H. Northrop,1,1946
+United States,Chemistry,United States,Wendell M. Stanley,1,1946
+United States,Chemistry,United States,Edwin M. McMillan,1,1951
+United States,Chemistry,United States,Glenn Theodore Seaborg,1,1951
+United States,Chemistry,United States,Linus C. Pauling,1,1954
+United States,Chemistry,United States,Vincent du Vigneaud,1,1955
+United States,Chemistry,United States,Willard F. Libby,1,1960
+United States,Chemistry,United States,Melvin Calvin,1,1961
+United States,Chemistry,United States,Robert B. Woodward,1,1965
+United States,Chemistry,United States,Robert S. Mulliken,1,1966
+United States,Chemistry,United States,Christian Anfinsen,1,1972
+United States,Chemistry,United States,Stanford Moore,1,1972
+United States,Chemistry,United States,William H. Stein,1,1972
+United States,Chemistry,United States,Paul J. Flory,1,1974
+United States,Chemistry,United States,William Lipscomb,1,1976
+United States,Chemistry,United States,Herbert C. Brown,1,1979
+United States,Chemistry,United States,Paul Berg,1,1980
+United States,Chemistry,United States,Walter Gilbert,1,1980
+United States,Chemistry,United States,Bruce Merrifield,1,1984
+United States,Chemistry,United States,Herbert A. Hauptman,1,1985
+United States,Chemistry,United States,Jerome Karle,1,1985
+United States,Chemistry,United States,Dudley R. Herschbach,1,1986
+United States,Chemistry,United States,Donald J. Cram,1,1987
+United States,Chemistry,United States,Thomas R. Cech,1,1989
+United States,Chemistry,United States,Elias James Corey,1,1990
+United States,Chemistry,United States,Rudolph A. Marcus,1,1992
+United States,Chemistry,United States,Kary B. Mullis,1,1993
+United States,Chemistry,United States,F. Sherwood Rowland,1,1995
+United States,Chemistry,United States,Richard E. Smalley,1,1996
+United States,Chemistry,United States,Robert F. Curl Jr.,1,1996
+United States,Chemistry,United States,Paul D. Boyer,1,1997
+United States,Chemistry,United States,Alan Heeger,1,2000
+United States,Chemistry,United States,K. Barry Sharpless,1,2001
+United States,Chemistry,United States,William S. Knowles,1,2001
+United States,Chemistry,United States,Peter Agre,1,2003
+United States,Chemistry,United States,Roderick MacKinnon,1,2003
+United States,Chemistry,United States,Irwin Rose,1,2004
+United States,Chemistry,United States,Richard R. Schrock,1,2005
+United States,Chemistry,United States,Robert H. Grubbs,1,2005
+United States,Chemistry,United States,Roger D. Kornberg,1,2006
+United States,Chemistry,United States,Martin Chalfie,1,2008
+United States,Chemistry,United States,Roger Yonchien Tsien,1,2008
+United States,Chemistry,United States,Thomas A. Steitz,1,2009
+Austria,Economic,United Kingdom,Friedrich Hayek,1,1974
+Canada,Economic Sciences,Canada,William Vickrey*,1,1996
+Austria,Economics,Austria,Friedrich Hayek,1,1974
+Canada,Economics,Canada,Myron Scholes*,1,1997
+Canada,Economics,Canada,Robert Mundell,1,1999
+France,Economics,France,Gerard Debreu,1,1983
+France,Economics,France,Maurice Allais,1,1988
+Germany,Economics,Germany,Reinhard Selten,1,1994
+Germany,Economics,Germany,Robert Aumann*,1,2005
+Hungary,Economics,Hungary,John Harsanyi*,1,1994
+India,Economics,India,Amartya Sen,1,1998
+Germany,Economics,Israel,Robert Aumann,1,2005
+Israel,Economics,Israel,Daniel Kahneman,1,2002
+Italy,Economics,Italy,Franco Modigliani,1,1985
+Netherlands,Economics,Netherlands,Jan Tinbergen,1,1969
+Netherlands,Economics,Netherlands,Tjalling Koopmans,1,1975
+Norway,Economics,Norway,Ragnar Anton Kittil Frisch,1,1969
+Norway,Economics,Norway,Trygve Haavelmo,1,1989
+Norway,Economics,Norway,Finn E. Kydland,1,2004
+Russia,Economics,Russia,Leonid Kantorovich,1,1975
+Russia,Economics,Russia,Leonid Hurwicz*,1,2007
+St Lucia,Economics,St Lucia,Sir Arthur Lewis*,1,1979
+Sweden,Economics,Sweden,Gunnar Myrdal,1,1974
+Sweden,Economics,Sweden,Bertil Ohlin,1,1977
+St Lucia,Economics,United Kingdom,Arthur Lewis,1,1979
+United Kingdom,Economics,United Kingdom,John Hicks,1,1972
+United Kingdom,Economics,United Kingdom,James Meade,1,1977
+United Kingdom,Economics,United Kingdom,Richard Stone,1,1984
+United Kingdom,Economics,United Kingdom,Ronald Coase,1,1991
+United Kingdom,Economics,United Kingdom,James A. Mirrlees,1,1996
+United Kingdom,Economics,United Kingdom,Clive W. J. Granger*,1,2003
+Canada,Economics,United States,William Vickrey,1,1996
+Canada,Economics,United States,Myron Scholes,1,1997
+France,Economics,United States,Gerard Debreu,1,1983
+Germany,Economics,United States,Wassily Leontief,1,1973
+Germany,Economics,United States,Robert Aumann,1,2005
+Hungary,Economics,United States,John Charles Harsanyi,1,1994
+Israel,Economics,United States,Daniel Kahneman,1,2002
+Italy,Economics,United States,Franco Modigliani,1,1985
+Russia,Economics,United States,Leonid Hurwicz,1,2007
+the Netherlands,Economics,United States,Tjalling C. Koopmans,1,1975
+United States,Economics,United States,Paul A. Samuelson,1,1970
+United States,Economics,United States,Simon Kuznets,1,1971
+United States,Economics,United States,Kenneth J. Arrow,1,1972
+United States,Economics,United States,Milton Friedman,1,1976
+United States,Economics,United States,Herbert A. Simon,1,1978
+United States,Economics,United States,Theodore Schultz,1,1979
+United States,Economics,United States,Lawrence R. Klein,1,1980
+United States,Economics,United States,James Tobin,1,1981
+United States,Economics,United States,George J. Stigler,1,1982
+United States,Economics,United States,James M. Buchanan,1,1986
+United States,Economics,United States,Robert M. Solow,1,1987
+United States,Economics,United States,Harry M. Markowitz,1,1990
+United States,Economics,United States,Merton H. Miller,1,1990
+United States,Economics,United States,William F. Sharpe,1,1990
+United States,Economics,United States,Gary S. Becker,1,1992
+United States,Economics,United States,Douglass C. North,1,1993
+United States,Economics,United States,Robert W. Fogel,1,1993
+United States,Economics,United States,John Forbes Nash,1,1994
+United States,Economics,United States,Robert Lucas Jr.,1,1995
+United States,Economics,United States,Robert C. Merton,1,1997
+United States,Economics,United States,Daniel L. McFadden,1,2000
+United States,Economics,United States,James J. Heckman,1,2000
+United States,Economics,United States,A. Michael Spence,1,2001
+United States,Economics,United States,George A. Akerlof,1,2001
+United States,Economics,United States,Joseph E. Stiglitz,1,2001
+United States,Economics,United States,Vernon L. Smith,1,2002
+United States,Economics,United States,Robert F. Engle,1,2003
+United States,Economics,United States,Edward C. Prescott,1,2004
+United States,Economics,United States,Thomas Schelling,1,2005
+United States,Economics,United States,Edmund S. Phelps,1,2006
+United States,Economics,United States,Eric S. Maskin,1,2007
+United States,Economics,United States,Roger B. Myerson,1,2007
+United States,Economics,United States,Paul Krugman,1,2008
+United States,Economics,United States,Elinor Ostrom*,1,2009
+United States,Economics,United States,Oliver E. Williamson*,1,2009
+United Kingdom,Literatur,United Kingdom,V.S. Naipaul,1,2001
+Algeria,Literature,Algeria,Albert Camus*,1,1957
+United Kingdom,Literature,Australia,Patrick White,1,1973
+Austria,Literature,Austria,Elfriede Jelinek,1,2004
+Belgium,Literature,Belgium,Maurice Maeterlinck,1,1911
+Bulgaria,Literature,Bulgaria,Elias Canetti*,1,1981
+Canada,Literature,Canada,Saul Bellow*,1,1976
+Chile,Literature,Chile,Gabriela Mistral,1,1945
+Chile,Literature,Chile,Pablo Neruda,1,1971
+China,Literature,China,Gao Xingjian*,1,2000
+Colombia,Literature,Colombia,Gabriel García Márquez,1,1982
+Czech Republic,Literature,Czech Republic,Jaroslav Seifert,1,1984
+Denmark,Literature,Denmark,Henrik Pontoppidan,1,1917
+Denmark,Literature,Denmark,Karl Adolph Gjellerup,1,1917
+Denmark,Literature,Denmark,Johannes Vilhelm Jensen,1,1944
+Egypt,Literature,Egypt,Naguib Mahfouz,1,1988
+Finland,Literature,Finland,Frans Eemil Sillanpää,1,1939
+Algeria,Literature,France,Albert Camus,1,1957
+China,Literature,France,Gao Xingjian,1,2000
+France,Literature,France,Sully Prudhomme,1,1901
+France,Literature,France,Frédéric Mistral,1,1904
+France,Literature,France,Romain Rolland,1,1915
+France,Literature,France,Anatole France,1,1921
+France,Literature,France,Henri Bergson,1,1927
+France,Literature,France,Roger Martin du Gard,1,1937
+France,Literature,France,André Gide,1,1947
+France,Literature,France,François Mauriac,1,1952
+France,Literature,France,Saint-John Perse,1,1960
+France,Literature,France,Jean-Paul Sartre,1,1964
+France,Literature,France,J. M. G. Le Clézio,1,2008
+Madagascar,Literature,France,Claude Simon,1,1985
+Russia,Literature,France,Ivan Bunin,1,1933
+Germany,Literature,Germany,Theodor Mommsen,1,1902
+Germany,Literature,Germany,Rudolf Christoph Eucken,1,1908
+Germany,Literature,Germany,Paul Johann Ludwig Heyse,1,1910
+Germany,Literature,Germany,Gerhart Hauptmann,1,1912
+Germany,Literature,Germany,Thomas Mann,1,1929
+Germany,Literature,Germany,Herman Hesse*,1,1946
+Germany,Literature,Germany,Nelly Sachs*,1,1966
+Germany,Literature,Germany,Heinrich Böll,1,1972
+Germany,Literature,Germany,Günter Grass,1,1999
+Romania,Literature,Germany,Herta Müller,1,2009
+Greece,Literature,Greece,Giorgos Seferis,1,1963
+Greece,Literature,Greece,Odysseas Elytis,1,1979
+Guatemala,Literature,Guatemala,Miguel Ángel Asturias,1,1967
+Hungary,Literature,Hungary,Imre Kertész,1,2002
+Iceland,Literature,Iceland,Halldór Laxness,1,1955
+India,Literature,India,Rudyard Kipling*,1,1907
+India,Literature,India,Rabindranath Tagore,1,1913
+Iran,Literature,Iran,Doris Lessing*,1,2007
+Ireland,Literature,Ireland,William Butler Yeats,1,1923
+Ireland,Literature,Ireland,George Bernard Shaw*,1,1925
+Ireland,Literature,Ireland,Samuel Beckett,1,1969
+Ireland,Literature,Ireland,Seamus Heaney,1,1995
+Israel,Literature,Israel,Shmuel Yosef Agnon,1,1966
+Italy,Literature,Italy,Giosuè Carducci,1,1906
+Italy,Literature,Italy,Grazia Deledda,1,1926
+Italy,Literature,Italy,Luigi Pirandello,1,1934
+Italy,Literature,Italy,Salvatore Quasimodo,1,1959
+Italy,Literature,Italy,Eugenio Montale,1,1975
+Italy,Literature,Italy,Dario Fo,1,1997
+Japan,Literature,Japan,Yasunari Kawabata,1,1968
+Japan,Literature,Japan,Kenzaburo- O-e,1,1994
+Mexico,Literature,Mexico,Octavio Paz,1,1990
+Nigeria,Literature,Nigeria,Wole Soyinka,1,1986
+Norway,Literature,Norway,Bjørnstjerne Bjørnson,1,1903
+Norway,Literature,Norway,Knut Hamsun,1,1920
+Norway,Literature,Norway,Sigrid Undset,1,1928
+Poland,Literature,Poland,Henryk Sienkiewicz,1,1905
+Poland,Literature,Poland,W?adys?aw Reymont,1,1924
+Poland,Literature,Poland,Isaac Bashevis Singer*,1,1978
+Poland,Literature,Poland,Czes?aw Mi?osz,1,1980
+Poland,Literature,Poland,Wis?awa Szymborska,1,1996
+Portugal,Literature,Portugal,José de Sousa Saramago,1,1998
+Russia,Literature,Russia,Ivan Bunin*,1,1933
+Russia,Literature,Russia,Boris Pasternak,1,1958
+Russia,Literature,Russia,Michail Sholokhov,1,1965
+Russia,Literature,Russia,Aleksandr Solzhenitsyn,1,1970
+Russia,Literature,Russia,Iosif Aleksandrovich Brodsky*,1,1987
+South Africa,Literature,South Africa,Nadine Gordimer,1,1991
+South Africa,Literature,South Africa,J. M. Coetzee,1,2003
+Spain,Literature,Spain,José Echegaray,1,1904
+Spain,Literature,Spain,Jacinto Benavente,1,1922
+Spain,Literature,Spain,Juan Ramón Jiménez,1,1956
+Spain,Literature,Spain,Vicente Aleixandre,1,1977
+Spain,Literature,Spain,Camilo José Cela,1,1989
+St Lucia,Literature,St Lucia,Derek Walcott,1,1992
+Germany,Literature,Sweden,Nelly Sachs,1,1966
+Sweden,Literature,Sweden,Selma Lagerlöf,1,1909
+Sweden,Literature,Sweden,Carl Gustaf Verner von Heidenstam,1,1916
+Sweden,Literature,Sweden,Erik Axel Karlfeldt,1,1931
+Sweden,Literature,Sweden,Pär Lagerkvist,1,1951
+Sweden,Literature,Sweden,Eyvind Johnson,1,1974
+Sweden,Literature,Sweden,Harry Martinson,1,1974
+Germany,Literature,Switzerland,Hermann Hesse,1,1946
+Switzerland,Literature,Switzerland,Carl Spitteler,1,1919
+Trinidad and Tobago,Literature,Trinidad and Tobago,V. S. Naipaul*,1,2001
+Turkey,Literature,Turkey,Orhan Pamuk,1,2006
+Bulgaria,Literature,United Kingdom,Elias Canetti,1,1981
+India,Literature,United Kingdom,Rudyard Kipling,1,1907
+Iran,Literature,United Kingdom,Doris Lessing,1,2007
+Ireland,Literature,United Kingdom,George Bernard Shaw,1,1925
+United Kingdom,Literature,United Kingdom,John Galsworthy,1,1932
+United Kingdom,Literature,United Kingdom,Bertrand Russell,1,1950
+United Kingdom,Literature,United Kingdom,Winston Churchill,1,1953
+United Kingdom,Literature,United Kingdom,Patrick White*,1,1973
+United Kingdom,Literature,United Kingdom,William Golding,1,1983
+United Kingdom,Literature,United Kingdom,Harold Pinter,1,2005
+United States,Literature,United Kingdom,T. S. Eliot,1,1948
+Canada,Literature,United States,Saul Bellow,1,1976
+Poland,Literature,United States,Isaac Bashevis Singer,1,1978
+Russia,Literature,United States,Joseph Brodsky,1,1987
+United States,Literature,United States,Sinclair Lewis,1,1930
+United States,Literature,United States,Eugene O'Neill,1,1936
+United States,Literature,United States,Pearl S. Buck,1,1938
+United States,Literature,United States,T. S. Eliot*,1,1948
+United States,Literature,United States,William Faulkner,1,1949
+United States,Literature,United States,Ernest Hemingway,1,1954
+United States,Literature,United States,John Steinbeck,1,1962
+United States,Literature,United States,Czes?aw Mi?osz,1,1980
+United States,Literature,United States,Toni Morrison,1,1993
+Yugoslavia,Literature,Yugoslavia,Ivo Andric'*,1,1961
+France,Medicine,France,Alexis Carrel,1,1912
+India,Medicine,India,Har Gobind Khorana*,1,1968
+Belgium,Physiology and Medicine,Belgium,Jules Bordet,1,1919
+Belgium,Physiology and Medicine,Belgium,Corneille Heymans,1,1938
+Belgium,Physiology and Medicine,Belgium,Albert Claude,1,1974
+United Kingdom,Physiology and Medicine,Belgium,Christian de Duve,1,1974
+Argentina,Physiology or Medicine,Argentina,Bernardo Houssay,1,1947
+Argentina,Physiology or Medicine,Argentina,César Milstein,1,1984
+Australia,Physiology or Medicine,Australia,Sir Howard Florey,1,1945
+Australia,Physiology or Medicine,Australia,Sir Frank Macfarlane Burnet,1,1960
+Australia,Physiology or Medicine,Australia,John Carew Eccles,1,1963
+Australia,Physiology or Medicine,Australia,Peter C. Doherty,1,1996
+Australia,Physiology or Medicine,Australia,Barry Marshall,1,2005
+Australia,Physiology or Medicine,Australia,J. Robin Warren,1,2005
+Australia,Physiology or Medicine,Australia,Elizabeth H. Blackburn*,1,2009
+Austria,Physiology or Medicine,Austria,Robert Bárány,1,1914
+Austria,Physiology or Medicine,Austria,Julius Wagner-Jauregg,1,1927
+Austria,Physiology or Medicine,Austria,Karl Landsteiner,1,1930
+Austria,Physiology or Medicine,Austria,Otto Loewi*,1,1936
+Austria,Physiology or Medicine,Austria,Karl von Frisch*,1,1973
+Austria,Physiology or Medicine,Austria,Konrad Lorenz,1,1973
+Austria,Physiology or Medicine,Austria,Eric R. Kandel*,1,2000
+Canada,Physiology or Medicine,Canada,Frederick G. Banting,1,1923
+Canada,Physiology or Medicine,Canada,Charles B. Huggins*,1,1966
+Canada,Physiology or Medicine,Canada,David H. Hubel*,1,1981
+Czech Republic,Physiology or Medicine,Czech Republic,Carl Ferdinand Cori*,1,1947
+Czech Republic,Physiology or Medicine,Czech Republic,Gerty Cori*,1,1947
+Denmark,Physiology or Medicine,Denmark,August Krogh,1,1920
+Denmark,Physiology or Medicine,Denmark,Johannes Andreas Grib Fibiger,1,1926
+Denmark,Physiology or Medicine,Denmark,Henrik Dam,1,1943
+Denmark,Physiology or Medicine,Denmark,Niels Kaj Jerne,1,1984
+Faroe Islands,Physiology or Medicine,Denmark,Niels Ryberg Finsen,1,1903
+Faroe Islands,Physiology or Medicine,Faroe Islands,Niels Ryberg Finsen*,1,1903
+Finland,Physiology or Medicine,Finland,Ragnar Granit*,1,1967
+France,Physiology or Medicine,France,Alphonse Laveran,1,1907
+France,Physiology or Medicine,France,Charles Richet,1,1913
+France,Physiology or Medicine,France,Charles Nicolle,1,1928
+France,Physiology or Medicine,France,Andre Frederic Cournand,1,1956
+France,Physiology or Medicine,France,André Lwoff,1,1965
+France,Physiology or Medicine,France,François Jacob,1,1965
+France,Physiology or Medicine,France,Jacques Monod,1,1965
+France,Physiology or Medicine,France,Roger Guillemin*,1,1977
+France,Physiology or Medicine,France,Jean Dausset,1,1980
+France,Physiology or Medicine,France,Françoise Barré-Sinoussi,1,2008
+France,Physiology or Medicine,France,Luc Montagnier,1,2008
+Germany,Physiology or Medicine,Germany,Emil Adolf von Behring,1,1901
+Germany,Physiology or Medicine,Germany,Robert Koch,1,1905
+Germany,Physiology or Medicine,Germany,Paul Ehrlich,1,1908
+Germany,Physiology or Medicine,Germany,Albrecht Kossel,1,1910
+Germany,Physiology or Medicine,Germany,Otto Fritz Meyerhof,1,1922
+Germany,Physiology or Medicine,Germany,Otto Heinrich Warburg,1,1931
+Germany,Physiology or Medicine,Germany,Hans Spemann,1,1935
+Germany,Physiology or Medicine,Germany,Gerhard Domagk,1,1939
+Germany,Physiology or Medicine,Germany,Ernst Boris Chain*,1,1945
+Germany,Physiology or Medicine,Germany,Fritz Albert Lipmann*,1,1953
+Germany,Physiology or Medicine,Germany,Hans Adolf Krebs*,1,1953
+Germany,Physiology or Medicine,Germany,Werner Forssmann,1,1956
+Germany,Physiology or Medicine,Germany,Feodor Felix Konrad Lynen,1,1964
+Germany,Physiology or Medicine,Germany,Konrad Bloch*,1,1964
+Germany,Physiology or Medicine,Germany,Max Delbrück*,1,1969
+Germany,Physiology or Medicine,Germany,Bernard Katz*,1,1970
+Germany,Physiology or Medicine,Germany,Karl Ritter von Frisch,1,1973
+Germany,Physiology or Medicine,Germany,Georges J.F. Kohler*,1,1984
+Germany,Physiology or Medicine,Germany,Bert Sakmann,1,1991
+Germany,Physiology or Medicine,Germany,Erwin Neher,1,1991
+Germany,Physiology or Medicine,Germany,Christiane Nüsslein-Volhard,1,1995
+Germany,Physiology or Medicine,Germany,Günter Blobel*,1,1999
+Germany,Physiology or Medicine,Germany,Harald zur Hausen,1,2008
+Hungary,Physiology or Medicine,Hungary,Albert Szent-Györgyi,1,1937
+Hungary,Physiology or Medicine,Hungary,Georg von Békésy*,1,1961
+India,Physiology or Medicine,India,Ronald Ross*,1,1902
+Italy,Physiology or Medicine,Italy,Camillo Golgi,1,1906
+Italy,Physiology or Medicine,Italy,Salvador Luria*,1,1969
+Italy,Physiology or Medicine,Italy,Renato Dulbecco*,1,1975
+Italy,Physiology or Medicine,Italy,Rita Levi-Montalcini,1,1986
+Italy,Physiology or Medicine,Italy,Mario Capecchi*,1,2007
+Switzerland,Physiology or Medicine,Italy,Daniel Bovet,1,1957
+Japan,Physiology or Medicine,Japan,Susumu Tonegawa,1,1987
+Netherlands,Physiology or Medicine,Netherlands,Willem Einthoven,1,1924
+Netherlands,Physiology or Medicine,Netherlands,Christiaan Eijkman,1,1929
+Netherlands,Physiology or Medicine,Netherlands,Nikolaas Tinbergen*,1,1973
+New Zealand,Physiology or Medicine,New Zealand,Maurice Wilkins*,1,1962
+Poland,Physiology or Medicine,Poland,Tadeus Reichstein*,1,1950
+Portugal,Physiology or Medicine,Portugal,António Caetano de Abreu Freire Egas Moniz,1,1949
+Romania,Physiology or Medicine,Romania,George E. Palade*,1,1974
+Russia,Physiology or Medicine,Russia,Ivan Pavlov,1,1904
+Russia,Physiology or Medicine,Russia,Ilya Mechnikov,1,1908
+South Africa,Physiology or Medicine,South Africa,Max Theiler,1,1951
+South Africa,Physiology or Medicine,South Africa,Allan M. Cormack*,1,1979
+South Africa,Physiology or Medicine,South Africa,Sydney Brenner*,1,2002
+Spain,Physiology or Medicine,Spain,Santiago Ramón y Cajal,1,1906
+Spain,Physiology or Medicine,Spain,Severo Ochoa*,1,1959
+Finland,Physiology or Medicine,Sweden,Ragnar Granit,1,1967
+Sweden,Physiology or Medicine,Sweden,Ulf von Euler,1,1970
+Sweden,Physiology or Medicine,Sweden,Torsten Wiesel*,1,1981
+Sweden,Physiology or Medicine,Sweden,Bengt I. Samuelsson,1,1982
+Sweden,Physiology or Medicine,Sweden,Sune Bergström,1,1982
+Sweden,Physiology or Medicine,Sweden,Arvid Carlsson,1,2000
+China,Physiology or Medicine,Switzerland,Edmond H. Fischer,1,1992
+Germany,Physiology or Medicine,Switzerland,Georges J. F. Köhler,1,1984
+Switzerland,Physiology or Medicine,Switzerland,Theodor Kocher,1,1909
+Switzerland,Physiology or Medicine,Switzerland,Paul Hermann Müller,1,1948
+Switzerland,Physiology or Medicine,Switzerland,Walter Rudolf Hess,1,1949
+Switzerland,Physiology or Medicine,Switzerland,Tadeus Reichstein,1,1950
+Switzerland,Physiology or Medicine,Switzerland,Daniel Bovet,1,1957
+Switzerland,Physiology or Medicine,Switzerland,Werner Arber,1,1978
+Switzerland,Physiology or Medicine,Switzerland,Rolf M. Zinkernagel,1,1996
+Argentina,Physiology or Medicine,United Kingdom,César Milstein,1,1984
+Brazil,Physiology or Medicine,United Kingdom,Peter Medawar,1,1960
+Germany,Physiology or Medicine,United Kingdom,Ernst Boris Chain,1,1945
+Germany,Physiology or Medicine,United Kingdom,Hans Adolf Krebs,1,1953
+Germany,Physiology or Medicine,United Kingdom,Bernard Katz,1,1970
+New Zealand,Physiology or Medicine,United Kingdom,Maurice Wilkins,1,1962
+South Africa,Physiology or Medicine,United Kingdom,Sydney Brenner,1,2002
+United Kingdom,Physiology or Medicine,United Kingdom,Ronald Ross,1,1902
+United Kingdom,Physiology or Medicine,United Kingdom,Archibald Hill,1,1922
+United Kingdom,Physiology or Medicine,United Kingdom,John James Richard Macleod*,1,1923
+United Kingdom,Physiology or Medicine,United Kingdom,Frederick Hopkins,1,1929
+United Kingdom,Physiology or Medicine,United Kingdom,Charles Scott Sherrington,1,1932
+United Kingdom,Physiology or Medicine,United Kingdom,Edgar Adrian,1,1932
+United Kingdom,Physiology or Medicine,United Kingdom,Henry Hallett Dale,1,1936
+United Kingdom,Physiology or Medicine,United Kingdom,Alexander Fleming,1,1945
+United Kingdom,Physiology or Medicine,United Kingdom,Francis Crick,1,1962
+United Kingdom,Physiology or Medicine,United Kingdom,Alan Lloyd Hodgkin,1,1963
+United Kingdom,Physiology or Medicine,United Kingdom,Andrew Huxley,1,1963
+United Kingdom,Physiology or Medicine,United Kingdom,Rodney Robert Porter,1,1972
+United Kingdom,Physiology or Medicine,United Kingdom,Christian de Duve*,1,1974
+United Kingdom,Physiology or Medicine,United Kingdom,Godfrey Hounsfield,1,1979
+United Kingdom,Physiology or Medicine,United Kingdom,John Robert Vane,1,1982
+United Kingdom,Physiology or Medicine,United Kingdom,Niels Kaj Jerne*,1,1984
+United Kingdom,Physiology or Medicine,United Kingdom,James W. Black,1,1988
+United Kingdom,Physiology or Medicine,United Kingdom,Richard J. Roberts,1,1993
+United Kingdom,Physiology or Medicine,United Kingdom,Paul Nurse,1,2001
+United Kingdom,Physiology or Medicine,United Kingdom,Tim Hunt,1,2001
+United Kingdom,Physiology or Medicine,United Kingdom,John E. Sulston,1,2002
+United Kingdom,Physiology or Medicine,United Kingdom,Peter Mansfield,1,2003
+United Kingdom,Physiology or Medicine,United Kingdom,Oliver Smithies*,1,2007
+United Kingdom,Physiology or Medicine,United Kingdom,Sir Martin J. Evans,1,2007
+United Kingdom,Physiology or Medicine,United Kingdom,Jack W. Szostak*,1,2009
+Australia,Physiology or Medicine,United States,Elizabeth Blackburn,1,2009
+Austria,Physiology or Medicine,United States,Carl Cori,1,1947
+Austria,Physiology or Medicine,United States,Gerty Cori,1,1947
+Austria,Physiology or Medicine,United States,Eric R. Kandel,1,2000
+Canada,Physiology or Medicine,United States,Charles B. Huggins,1,1966
+Canada,Physiology or Medicine,United States,David H. Hubel,1,1981
+China,Physiology or Medicine,United States,Edmond H. Fischer,1,1992
+France,Physiology or Medicine,United States,André F. Cournand,1,1956
+France,Physiology or Medicine,United States,Roger Guillemin,1,1977
+Germany,Physiology or Medicine,United States,Konrad Bloch,1,1964
+Germany,Physiology or Medicine,United States,Max Delbrück,1,1969
+Germany,Physiology or Medicine,United States,Günter Blobel,1,1999
+Hungary,Physiology or Medicine,United States,Georg von Békésy,1,1961
+Italy,Physiology or Medicine,United States,Salvador Luria,1,1969
+Italy,Physiology or Medicine,United States,Renato Dulbecco,1,1975
+Italy,Physiology or Medicine,United States,Rita Levi-Montalcini,1,1986
+Italy,Physiology or Medicine,United States,Mario R. Capecchi,1,2007
+Poland,Physiology or Medicine,United States,Andrzej W. Schally,1,1977
+Romania,Physiology or Medicine,United States,George E. Palade,1,1974
+South Africa,Physiology or Medicine,United States,Allan M. Cormack,1,1979
+South Africa,Physiology or Medicine,United States,Sydney Brenner,1,2002
+Spain,Physiology or Medicine,United States,Severo Ochoa,1,1959
+United Kingdom,Physiology or Medicine,United States,Oliver Smithies,1,2007
+United Kingdom,Physiology or Medicine,United States,Jack W. Szostak,1,2009
+United States,Physiology or Medicine,United States,Thomas H. Morgan,1,1933
+United States,Physiology or Medicine,United States,George H. Whipple,1,1934
+United States,Physiology or Medicine,United States,George R. Minot,1,1934
+United States,Physiology or Medicine,United States,William P. Murphy,1,1934
+United States,Physiology or Medicine,United States,Edward A. Doisy,1,1943
+United States,Physiology or Medicine,United States,Herbert S. Gasser,1,1944
+United States,Physiology or Medicine,United States,Joseph Erlanger,1,1944
+United States,Physiology or Medicine,United States,Hermann J. Muller,1,1946
+United States,Physiology or Medicine,United States,Edward C. Kendall,1,1950
+United States,Physiology or Medicine,United States,Philip S. Hench,1,1950
+United States,Physiology or Medicine,United States,Selman A. Waksman,1,1952
+United States,Physiology or Medicine,United States,Fritz Lipmann,1,1953
+United States,Physiology or Medicine,United States,Frederick C. Robbins,1,1954
+United States,Physiology or Medicine,United States,John F. Enders,1,1954
+United States,Physiology or Medicine,United States,Thomas H. Weller,1,1954
+United States,Physiology or Medicine,United States,Dickinson W. Richards,1,1956
+United States,Physiology or Medicine,United States,Edward Tatum,1,1958
+United States,Physiology or Medicine,United States,George Beadle,1,1958
+United States,Physiology or Medicine,United States,Joshua Lederberg,1,1958
+United States,Physiology or Medicine,United States,Arthur Kornberg,1,1959
+United States,Physiology or Medicine,United States,James D. Watson,1,1962
+United States,Physiology or Medicine,United States,Francis Peyton Rous,1,1966
+United States,Physiology or Medicine,United States,George Wald,1,1967
+United States,Physiology or Medicine,United States,Haldan Keffer Hartline,1,1967
+United States,Physiology or Medicine,United States,Har Gobind Khorana,1,1968
+United States,Physiology or Medicine,United States,Marshall Warren Nirenberg,1,1968
+United States,Physiology or Medicine,United States,Robert W. Holley,1,1968
+United States,Physiology or Medicine,United States,Alfred Hershey,1,1969
+United States,Physiology or Medicine,United States,Julius Axelrod,1,1970
+United States,Physiology or Medicine,United States,Earl W. Sutherland Jr.,1,1971
+United States,Physiology or Medicine,United States,Gerald Edelman,1,1972
+United States,Physiology or Medicine,United States,David Baltimore,1,1975
+United States,Physiology or Medicine,United States,Howard Martin Temin,1,1975
+United States,Physiology or Medicine,United States,Baruch S. Blumberg,1,1976
+United States,Physiology or Medicine,United States,Daniel Carleton Gajdusek,1,1976
+United States,Physiology or Medicine,United States,Rosalyn Yalow,1,1977
+United States,Physiology or Medicine,United States,Daniel Nathans,1,1978
+United States,Physiology or Medicine,United States,Hamilton O. Smith,1,1978
+United States,Physiology or Medicine,United States,George D. Snell,1,1980
+United States,Physiology or Medicine,United States,Roger W. Sperry,1,1981
+United States,Physiology or Medicine,United States,Barbara McClintock,1,1983
+United States,Physiology or Medicine,United States,Joseph L. Goldstein,1,1985
+United States,Physiology or Medicine,United States,Michael S. Brown,1,1985
+United States,Physiology or Medicine,United States,Stanley Cohen,1,1986
+United States,Physiology or Medicine,United States,George H. Hitchings,1,1988
+United States,Physiology or Medicine,United States,Gertrude B. Elion,1,1988
+United States,Physiology or Medicine,United States,Harold E. Varmus,1,1989
+United States,Physiology or Medicine,United States,J. Michael Bishop,1,1989
+United States,Physiology or Medicine,United States,E. Donnall Thomas,1,1990
+United States,Physiology or Medicine,United States,Joseph E. Murray,1,1990
+United States,Physiology or Medicine,United States,Edwin G. Krebs,1,1992
+United States,Physiology or Medicine,United States,Phillip A. Sharp,1,1993
+United States,Physiology or Medicine,United States,Alfred G. Gilman,1,1994
+United States,Physiology or Medicine,United States,Martin Rodbell,1,1994
+United States,Physiology or Medicine,United States,Edward B. Lewis,1,1995
+United States,Physiology or Medicine,United States,Eric F. Wieschaus,1,1995
+United States,Physiology or Medicine,United States,Stanley B. Prusiner,1,1997
+United States,Physiology or Medicine,United States,Ferid Murad,1,1998
+United States,Physiology or Medicine,United States,Louis J. Ignarro,1,1998
+United States,Physiology or Medicine,United States,Robert F. Furchgott,1,1998
+United States,Physiology or Medicine,United States,Paul Greengard,1,2000
+United States,Physiology or Medicine,United States,Leland H. Hartwell,1,2001
+United States,Physiology or Medicine,United States,H. Robert Horvitz,1,2002
+United States,Physiology or Medicine,United States,Paul C. Lauterbur,1,2003
+United States,Physiology or Medicine,United States,Linda B. Buck,1,2004
+United States,Physiology or Medicine,United States,Richard Axel,1,2004
+United States,Physiology or Medicine,United States,Andrew Z. Fire,1,2006
+United States,Physiology or Medicine,United States,Craig C. Mello,1,2006
+United States,Physiology or Medicine,United States,Carol W. Greider,1,2009
+Venezuela,Physiology or Medicine,United States,Baruj Benacerraf,1,1980
+Venezuela,Physiology or Medicine,Venezuela,Baruj Benacerraf*,1,1980
+Argentina,Peace,Argentina,Carlos Saavedra Lamas,1,1936
+Argentina,Peace,Argentina,Adolfo Pérez Esquivel,1,1980
+Austria,Peace,Austria,Bertha von Suttner,1,1905
+Austria,Peace,Austria,Alfred Hermann Fried,1,1911
+Austria,Peace,Austria,International Atomic Energy Agency,1,2005
+Bangladesh,Peace,Bangladesh,Grameen Bank,1,2006
+Bangladesh,Peace,Bangladesh,Muhammad Yunus,1,2006
+Belgium,Peace,Belgium,Institut de Droit International,1,1904
+Belgium,Peace,Belgium,Auguste Beernaert,1,1909
+Belgium,Peace,Belgium,Henri La Fontaine,1,1913
+Belgium,Peace,Belgium,Georges Pire,1,1958
+Belgium,Peace,Belgium,Médecins Sans Frontières,1,1999
+Canada,Peace,Canada,Lester B. Pearson,1,1957
+Canada,Peace,Canada,Pugwash Conferences on Science and World Affairs,1,1995
+Costa Rica,Peace,Costa Rica,Oscar Arias Sánchez,1,1987
+Czech Republic,Peace,Czech Republic,Bertha von Suttner*,1,1905
+Denmark,Peace,Denmark,Fredrik Bajer,1,1908
+East Timor,Peace,East Timor,Carlos Filipe Ximenes Belo,1,1996
+East Timor,Peace,East Timor,José Ramos-Horta,1,1996
+Egypt,Peace,Egypt,Anwar El Sadat,1,1978
+Egypt,Peace,Egypt,Mohamed ElBaradei,1,2005
+Finland,Peace,Finland,Martti Ahtisaari,1,2008
+France,Peace,France,Frédéric Passy,1,1901
+France,Peace,France,Louis Renault,1,1907
+France,Peace,France,Paul-Henri-Benjamin d'Estournelles de Constant,1,1909
+France,Peace,France,Léon Bourgeois,1,1920
+France,Peace,France,Aristide Briand,1,1926
+France,Peace,France,Ferdinand Buisson,1,1927
+France,Peace,France,Léon Jouhaux,1,1951
+France,Peace,France,René Cassin,1,1968
+France,Peace,France,Seán MacBride*,1,1974
+Germany,Peace,Germany,Gustav Stresemann,1,1926
+Germany,Peace,Germany,Ludwig Quidde,1,1927
+Germany,Peace,Germany,Carl von Ossietzky,1,1935
+Germany,Peace,Germany,Albert Schweitzer*,1,1952
+Germany,Peace,Germany,Willy Brandt,1,1971
+Germany,Peace,Germany,Henry Kissinger*,1,1973
+Ghana,Peace,Ghana,Kofi Annan,1,2001
+Guatemala,Peace,Guatemala,Rigoberta Menchú,1,1992
+Ottoman Empire,Peace,India,Mother Teresa,1,1979
+Iran,Peace,Iran,Shirin Ebadi,1,2003
+France,Peace,Ireland,Seán MacBride,1,1974
+Ireland,Peace,Ireland,Betty Williams,1,1976
+Ireland,Peace,Ireland,Mairead Corrigan,1,1976
+Belarus,Peace,Israel,Menachem Begin,1,1978
+Israel,Peace,Israel,Shimon Peres,1,1994
+Israel,Peace,Israel,Yitzhak Rabin,1,1994
+Italy,Peace,Italy,Ernesto Teodoro Moneta,1,1907
+Japan,Peace,Japan,Eisaku Sato-,1,1974
+Kenya,Peace,Kenya,Wangari Maathai,1,2004
+Mexico,Peace,Mexico,Alfonso García Robles,1,1982
+Myanmar,Peace,Myanmar,Aung San Suu Kyi,1,1991
+Netherlands,Peace,Netherlands,Tobias Asser,1,1911
+Norway,Peace,Norway,Christian Lous Lange,1,1921
+Norway,Peace,Norway,Fridtjof Nansen,1,1922
+Palestine,Peace,Palestine,Yasser Arafat,1,1994
+Poland,Peace,Poland,Lech Wa?e;sa,1,1983
+Poland,Peace,Poland,Joseph Rotblat*,1,1995
+Romania,Peace,Romania,Elie Wiesel*,1,1986
+Russia,Peace,Russia,Andrei Dmitrievich Sakharov,1,1975
+Russia,Peace,Russia,Mikhail Gorbachev,1,1990
+South Africa,Peace,South Africa,Albert Lutuli,1,1960
+South Africa,Peace,South Africa,Desmond Tutu,1,1984
+South Africa,Peace,South Africa,F.W. de Klerk,1,1993
+South Africa,Peace,South Africa,Nelson Mandela,1,1993
+South Korea,Peace,South Korea,Kim Dae-jung,1,2000
+Sweden,Peace,Sweden,Klas Pontus Arnoldson,1,1908
+Sweden,Peace,Sweden,Hjalmar Branting,1,1921
+Sweden,Peace,Sweden,Nathan Söderblom,1,1930
+Sweden,Peace,Sweden,Dag Hammarskjöld,1,1961
+Sweden,Peace,Sweden,Alva Myrdal,1,1982
+Switzerland,Peace,Switzerland,Henry Dunant,1,1901
+Switzerland,Peace,Switzerland,Charles Albert Gobat,1,1902
+Switzerland,Peace,Switzerland,Élie Ducommun,1,1902
+Poland,Peace,United Kingdom,Joseph Rotblat,1,1995
+United Kingdom,Peace,United Kingdom,William Randal Cremer,1,1903
+United Kingdom,Peace,United Kingdom,Austen Chamberlain,1,1925
+United Kingdom,Peace,United Kingdom,Norman Angell,1,1933
+United Kingdom,Peace,United Kingdom,Arthur Henderson,1,1934
+United Kingdom,Peace,United Kingdom,Robert Cecil,1,1937
+United Kingdom,Peace,United Kingdom,Friends Service Council,1,1947
+United Kingdom,Peace,United Kingdom,John Boyd Orr,1,1949
+United Kingdom,Peace,United Kingdom,Philip Noel-Baker,1,1959
+United Kingdom,Peace,United Kingdom,Betty Williams,1,1976
+United Kingdom,Peace,United Kingdom,Mairead Corrigan,1,1976
+United Kingdom,Peace,United Kingdom,Amnesty International,1,1977
+United Kingdom,Peace,United Kingdom,David Trimble,1,1998
+Germany,Peace,United States,Henry Kissinger,1,1973
+Romania,Peace,United States,Elie Wiesel,1,1986
+United States,Peace,United States,Theodore Roosevelt,1,1906
+United States,Peace,United States,Elihu Root,1,1912
+United States,Peace,United States,Woodrow Wilson,1,1919
+United States,Peace,United States,Charles G. Dawes,1,1925
+United States,Peace,United States,Frank B. Kellogg,1,1929
+United States,Peace,United States,Jane Addams,1,1931
+United States,Peace,United States,Nicholas M. Butler,1,1931
+United States,Peace,United States,Cordell Hull,1,1945
+United States,Peace,United States,Emily G. Balch,1,1946
+United States,Peace,United States,John R. Mott,1,1946
+United States,Peace,United States,American Friends Service Committee,1,1947
+United States,Peace,United States,Ralph J. Bunche,1,1950
+United States,Peace,United States,George C. Marshall,1,1953
+United States,Peace,United States,Linus C. Pauling,1,1962
+United States,Peace,United States,Martin Luther King Jr.,1,1964
+United States,Peace,United States,Norman Borlaug,1,1970
+United States,Peace,United States,Jody Williams,1,1997
+United States,Peace,United States,Jimmy Carter,1,2002
+United States,Peace,United States,Al Gore,1,2007
+United States,Peace,United States,Barack Obama,1,2009
+Vietnam,Peace,Vietnam,Lê Ðu+'c Tho.,1,1973
+Germany,Physic,Germany,Max Born*,1,1954
+United States,Physic,United States,John Bardeen,1,1972
+United States,Physic,United States,Leon N. Cooper,1,1972
+United States,Physic,United States,Robert Schrieffer,1,1972
+Algeria,Physics,Algeria,Claude Cohen-Tannoudji*,1,1997
+Australia,Physics,Australia,William Lawrence Bragg*,1,1915
+Austria,Physics,Austria,Erwin Schrödinger,1,1933
+Austria,Physics,Austria,Victor Francis Hess,1,1936
+Austria,Physics,Austria,Wolfgang Pauli,1,1945
+Azerbaijan,Physics,Azerbaijan,Lev Landau,1,1962
+Canada,Physics,Canada,Richard E. Taylor,1,1990
+Canada,Physics,Canada,Bertram N. Brockhouse,1,1994
+Canada,Physics,Canada,Willard Boyle*,1,2009
+China,Physics,China,Chen Ning Yang,1,1957
+China,Physics,China,Tsung-Dao Lee,1,1957
+China,Physics,China,Daniel C. Tsui*,1,1998
+Hong Kong,Physics,China,Charles K. Kao,1,2009
+Denmark,Physics,Denmark,Niels Bohr,1,1922
+Denmark,Physics,Denmark,Aage Niels Bohr,1,1975
+Denmark,Physics,Denmark,Ben Roy Mottelson,1,1975
+Algeria,Physics,France,Claude Cohen-Tannoudji,1,1997
+France,Physics,France,Antoine Henri Becquerel,1,1903
+France,Physics,France,Pierre Curie,1,1903
+France,Physics,France,Jean-Baptiste Perrin,1,1926
+France,Physics,France,Alfred Kastler,1,1966
+France,Physics,France,Louis Néel,1,1970
+France,Physics,France,Pierre-Gilles de Gennes,1,1991
+France,Physics,France,Georges Charpak,1,1992
+France,Physics,France,Albert Fert,1,2007
+Luxembourg,Physics,France,Gabriel Lippmann*,1,1908
+Russian Poland,Physics,France,Marie Curie,1,1903
+Germany,Physics,Germany,Wilhelm Conrad Röntgen,1,1901
+Germany,Physics,Germany,Philipp Lenard,1,1905
+Germany,Physics,Germany,Albert Abraham Michelson*,1,1907
+Germany,Physics,Germany,Karl Ferdinand Braun,1,1909
+Germany,Physics,Germany,Wilhelm Wien,1,1911
+Germany,Physics,Germany,Max von Laue,1,1914
+Germany,Physics,Germany,Max Karl Ernst Ludwig Planck,1,1918
+Germany,Physics,Germany,Johannes Stark,1,1919
+Germany,Physics,Germany,Albert Einstein,1,1921
+Germany,Physics,Germany,Gustav Ludwig Hertz,1,1925
+Germany,Physics,Germany,James Franck,1,1925
+Germany,Physics,Germany,Werner Karl Heisenberg,1,1932
+Germany,Physics,Germany,Otto Stern*,1,1943
+Germany,Physics,Germany,Walther Bothe,1,1954
+Germany,Physics,Germany,Rudolf Mössbauer,1,1961
+Germany,Physics,Germany,J. Hans D. Jensen,1,1963
+Germany,Physics,Germany,Maria Goeppert-Mayer*,1,1963
+Germany,Physics,Germany,Hans Albrecht Bethe*,1,1967
+Germany,Physics,Germany,Arno Penzias*,1,1978
+Germany,Physics,Germany,Klaus von Klitzing,1,1985
+Germany,Physics,Germany,Ernst Ruska,1,1986
+Germany,Physics,Germany,Gerd Binnig,1,1986
+Germany,Physics,Germany,J. Georg Bednorz,1,1987
+Germany,Physics,Germany,Jack Steinberger*,1,1988
+Germany,Physics,Germany,Hans G. Dehmelt*,1,1989
+Germany,Physics,Germany,Wolfgang Paul,1,1989
+Germany,Physics,Germany,Horst L. Störmer,1,1998
+Germany,Physics,Germany,Herbert Kroemer,1,2000
+Germany,Physics,Germany,Wolfgang Ketterle,1,2001
+Germany,Physics,Germany,Theodor W. Hänsch,1,2005
+Germany,Physics,Germany,Peter Grünberg,1,2007
+Hong Kong,Physics,Hong Kong,Charles K. Kao,1,2009
+Hungary,Physics,Hungary,Philipp Lenard*,1,1905
+Hungary,Physics,Hungary,Eugene Wigner*,1,1963
+Hungary,Physics,Hungary,Dennis Gabor*,1,1971
+India,Physics,India,C. V. Raman,1,1930
+India,Physics,India,Subrahmanyan Chandrasekhar*,1,1983
+Ireland,Physics,Ireland,Ernest Walton,1,1951
+Italy,Physics,Italy,Guglielmo Marconi,1,1909
+Italy,Physics,Italy,Enrico Fermi,1,1938
+Italy,Physics,Italy,Emilio G. Segrè,1,1959
+Italy,Physics,Italy,Carlo Rubbia,1,1984
+Italy,Physics,Italy,Riccardo Giacconi*,1,2002
+Japan,Physics,Japan,Hideki Yukawa,1,1949
+Japan,Physics,Japan,Sin-Itiro Tomonaga,1,1965
+Japan,Physics,Japan,Leo Esaki,1,1973
+Japan,Physics,Japan,Masatoshi Koshiba,1,2002
+Japan,Physics,Japan,Makoto Kobayashi,1,2008
+Japan,Physics,Japan,Toshihide Maskawa,1,2008
+Japan,Physics,Japan,Yoichiro Nambu*,1,2008
+Netherlands,Physics,Netherlands,Hendrik Lorentz,1,1902
+Netherlands,Physics,Netherlands,Pieter Zeeman,1,1902
+Netherlands,Physics,Netherlands,Johannes Diderik van der Waals,1,1910
+Netherlands,Physics,Netherlands,Heike Kamerlingh Onnes,1,1913
+Netherlands,Physics,Netherlands,Frits Zernike,1,1953
+Netherlands,Physics,Netherlands,Nicolaas Bloembergen*,1,1981
+Netherlands,Physics,Netherlands,Simon van der Meer,1,1984
+Netherlands,Physics,Netherlands,Gerardus 't Hooft,1,1999
+Netherlands,Physics,Netherlands,Martinus J. G. Veltman,1,1999
+Norway,Physics,Norway,Ivar Giaever,1,1973
+Pakistan,Physics,Pakistan,Abdus Salam,1,1979
+Poland,Physics,Poland,Marie Sk?odowska-Curie*,1,1903
+Poland,Physics,Poland,Georges Charpak*,1,1992
+Australia,Physics,Russia,Aleksandr M. Prokhorov,1,1964
+Russia,Physics,Russia,Igor Yevgenyevich Tamm,1,1958
+Russia,Physics,Russia,Ilya Mikhailovich Frank,1,1958
+Russia,Physics,Russia,Pavel Alekseyevich Cherenkov,1,1958
+Russia,Physics,Russia,Lev Landau,1,1962
+Russia,Physics,Russia,Nicolay G. Basov,1,1964
+Russia,Physics,Russia,Pyotr Leonidovich Kapitsa,1,1978
+Russia,Physics,Russia,Zhores I. Alferov,1,2000
+Russia,Physics,Russia,Alexei A. Abrikosov,1,2003
+Russia,Physics,Russia,Vitaly Ginzburg,1,2003
+Sweden,Physics,Sweden,Gustaf Dalén,1,1912
+Sweden,Physics,Sweden,Karl Manne Siegbahn,1,1924
+Sweden,Physics,Sweden,Hannes Alfvén,1,1970
+Sweden,Physics,Sweden,Kai Siegbahn,1,1981
+Germany,Physics,Switzerland,Albert Einstein,1,1921
+Switzerland,Physics,Switzerland,Charles Édouard Guillaume,1,1920
+Switzerland,Physics,Switzerland,Felix Bloch,1,1952
+Switzerland,Physics,Switzerland,Heinrich Rohrer,1,1986
+Switzerland,Physics,Switzerland,Karl Alexander Müller,1,1987
+Australia,Physics,United Kingdom,William Lawrence Bragg,1,1915
+Germany,Physics,United Kingdom,Max Born,1,1954
+Hong Kong,Physics,United Kingdom,Charles K. Kao,1,2009
+Hungary,Physics,United Kingdom,Dennis Gabor,1,1971
+United Kingdom,Physics,United Kingdom,John Strutt,1,1904
+United Kingdom,Physics,United Kingdom,J. J. Thomson,1,1906
+United Kingdom,Physics,United Kingdom,William Henry Bragg,1,1915
+United Kingdom,Physics,United Kingdom,Charles Glover Barkla,1,1917
+United Kingdom,Physics,United Kingdom,Charles Thomson Rees Wilson,1,1927
+United Kingdom,Physics,United Kingdom,Owen Willans Richardson,1,1928
+United Kingdom,Physics,United Kingdom,Paul Dirac,1,1933
+United Kingdom,Physics,United Kingdom,James Chadwick,1,1935
+United Kingdom,Physics,United Kingdom,George Paget Thomson,1,1937
+United Kingdom,Physics,United Kingdom,Martin Ryle,1,1946
+United Kingdom,Physics,United Kingdom,Edward Victor Appleton,1,1947
+United Kingdom,Physics,United Kingdom,Patrick Blackett,1,1948
+United Kingdom,Physics,United Kingdom,Cecil Frank Powell,1,1950
+United Kingdom,Physics,United Kingdom,John Cockcroft,1,1951
+United Kingdom,Physics,United Kingdom,Brian David Josephson,1,1973
+United Kingdom,Physics,United Kingdom,Antony Hewish,1,1974
+United Kingdom,Physics,United Kingdom,Nevill Francis Mott,1,1977
+United Kingdom,Physics,United Kingdom,Anthony J. Leggett*,1,2003
+Austria,Physics,United States,Isidor Isaac Rabi,1,1944
+Canada,Physics,United States,Willard S. Boyle,1,2009
+China,Physics,United States,Chen Ning Yang,1,1957
+China,Physics,United States,Tsung-Dao Lee,1,1957
+China,Physics,United States,Daniel C. Tsui,1,1998
+Germany,Physics,United States,Albert A. Michelson,1,1907
+Germany,Physics,United States,Otto Stern,1,1943
+Germany,Physics,United States,Polykarp Kusch,1,1955
+Germany,Physics,United States,Maria Goeppert-Mayer,1,1963
+Germany,Physics,United States,Hans Bethe,1,1967
+Germany,Physics,United States,Arno Penzias,1,1978
+Germany,Physics,United States,Jack Steinberger,1,1988
+Germany,Physics,United States,Hans G. Dehmelt,1,1989
+Hungary,Physics,United States,Eugene Wigner,1,1963
+India,Physics,United States,Subrahmanyan Chandrasekhar,1,1983
+Italy,Physics,United States,Emilio Segrè,1,1959
+Italy,Physics,United States,Riccardo Giacconi,1,2002
+Japan,Physics,United States,Yoichiro Nambu,1,2008
+Norway,Physics,United States,Ivar Giaever,1,1973
+Russia,Physics,United States,Alexei A. Abrikosov,1,2003
+Switzerland,Physics,United States,Felix Bloch,1,1952
+the Netherlands,Physics,United States,Nicolaas Bloembergen,1,1981
+United Kingdom,Physics,United States,Anthony J. Leggett,1,2003
+United States,Physics,United States,Robert A. Millikan,1,1923
+United States,Physics,United States,Arthur H. Compton,1,1927
+United States,Physics,United States,Carl Anderson,1,1936
+United States,Physics,United States,Clinton Davisson,1,1937
+United States,Physics,United States,Ernest Lawrence,1,1939
+United States,Physics,United States,Percy W. Bridgman,1,1946
+United States,Physics,United States,E. M. Purcell,1,1952
+United States,Physics,United States,Willis E. Lamb,1,1955
+United States,Physics,United States,John Bardeen,1,1956
+United States,Physics,United States,Walter H. Brattain,1,1956
+United States,Physics,United States,William B. Shockley,1,1956
+United States,Physics,United States,Owen Chamberlain,1,1959
+United States,Physics,United States,Donald A. Glaser,1,1960
+United States,Physics,United States,Robert Hofstadter,1,1961
+United States,Physics,United States,Charles H. Townes,1,1964
+United States,Physics,United States,Julian Schwinger,1,1965
+United States,Physics,United States,Richard P. Feynman,1,1965
+United States,Physics,United States,Luis Alvarez,1,1968
+United States,Physics,United States,Murray Gell-Mann,1,1969
+United States,Physics,United States,Ben R. Mottelson*,1,1975
+United States,Physics,United States,James Rainwater,1,1975
+United States,Physics,United States,Burton Richter,1,1976
+United States,Physics,United States,Samuel C. C. Ting,1,1976
+United States,Physics,United States,John H. van Vleck,1,1977
+United States,Physics,United States,Philip Anderson,1,1977
+United States,Physics,United States,Robert Woodrow Wilson,1,1978
+United States,Physics,United States,Sheldon Glashow,1,1979
+United States,Physics,United States,Steven Weinberg,1,1979
+United States,Physics,United States,James Cronin,1,1980
+United States,Physics,United States,Val Fitch,1,1980
+United States,Physics,United States,Arthur L. Schawlow,1,1981
+United States,Physics,United States,Kenneth G. Wilson,1,1982
+United States,Physics,United States,William A. Fowler,1,1983
+United States,Physics,United States,Leon M. Lederman,1,1988
+United States,Physics,United States,Melvin Schwartz,1,1988
+United States,Physics,United States,Norman F. Ramsey,1,1989
+United States,Physics,United States,Henry W. Kendall,1,1990
+United States,Physics,United States,Jerome I. Friedman,1,1990
+United States,Physics,United States,Joseph H. Taylor Jr.,1,1993
+United States,Physics,United States,Russell A. Hulse,1,1993
+United States,Physics,United States,Clifford G. Shull,1,1994
+United States,Physics,United States,Frederick Reines,1,1995
+United States,Physics,United States,Martin L. Perl,1,1995
+United States,Physics,United States,David M. Lee,1,1996
+United States,Physics,United States,Douglas D. Osheroff,1,1996
+United States,Physics,United States,Robert C. Richardson,1,1996
+United States,Physics,United States,Steven Chu,1,1997
+United States,Physics,United States,William D. Phillips,1,1997
+United States,Physics,United States,Robert B. Laughlin,1,1998
+United States,Physics,United States,Jack Kilby,1,2000
+United States,Physics,United States,Carl E. Wieman,1,2001
+United States,Physics,United States,Eric A. Cornell,1,2001
+United States,Physics,United States,Raymond Davis Jr.,1,2002
+United States,Physics,United States,David J. Gross,1,2004
+United States,Physics,United States,Frank Wilczek,1,2004
+United States,Physics,United States,H. David Politzer,1,2004
+United States,Physics,United States,John L. Hall,1,2005
+United States,Physics,United States,Roy J. Glauber,1,2005
+United States,Physics,United States,George F. Smoot,1,2006
+United States,Physics,United States,John C. Mather,1,2006
+United States,Physics,United States,George E. Smith,1,2009

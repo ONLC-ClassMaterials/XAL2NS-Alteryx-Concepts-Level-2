@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="LockInGui.LockInInput.LockInInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Connection>AdventureWorksDW2012</Connection>
+          <Query>dbo."FactInternetSales"</Query>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=AdventureWorksDW2012
+Query=dbo."FactInternetSales"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings>
+        <Position x="234" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Input.FactInternetSales_Input"><![CDATA[ProductKey=ProductKey
+OrderDateKey=OrderDateKey
+DueDateKey=DueDateKey
+ShipDateKey=ShipDateKey
+CustomerKey=CustomerKey
+PromotionKey=PromotionKey
+CurrencyKey=CurrencyKey
+SalesTerritoryKey=SalesTerritoryKey
+SalesOrderNumber=SalesOrderNumber
+SalesOrderLineNumber=SalesOrderLineNumber
+RevisionNumber=RevisionNumber
+OrderQuantity=OrderQuantity
+UnitPrice=UnitPrice
+ExtendedAmount=ExtendedAmount
+UnitPriceDiscountPct=UnitPriceDiscountPct
+DiscountAmount=DiscountAmount
+ProductStandardCost=ProductStandardCost
+TotalProductCost=TotalProductCost
+SalesAmount=SalesAmount
+TaxAmt=TaxAmt
+Freight=Freight
+CarrierTrackingNumber=CarrierTrackingNumber
+CustomerPONumber=CustomerPONumber
+OrderDate=OrderDate
+DueDate=DueDate
+ShipDate=ShipDate
+]]></Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>11-3_SuperstoreDatabaseReportWithMacro (2)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro=".\11-3_SuperstoreDatabaseReportWithMacro.yxmc" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="LockInGui.LockInBrowse.LockInBrowse">
+        <Position x="366" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFileDataProfiling />
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <FirstNRecords>1000</FirstNRecords>
+          <UseCache value="True" />
+          <DataFromCache>False</DataFromCache>
+          <CacheKey>05ecdb3bff4bb09773058ba790eefe8b</CacheKey>
+          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_13136_05d6e08b8d22453196e64287faaebd7e_\..\Engine_13272_._AlteryxInDBBrowseCache_05ecdb3bff4bb09773058ba790eefe8b.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 1000 records
+Caching enabled</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInBrowse" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="FactInternetSales_Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output13" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>11-3_SuperstoreDatabaseReportWithMacro</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

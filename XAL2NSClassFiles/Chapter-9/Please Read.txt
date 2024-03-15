@@ -1,0 +1,5 @@
+If you are opening the files to just see how they should be configured to run you need to unpackage the yxzp files
+instead of just opening the yxwz or yxmd files.
+
+The reference to the macro will not be maintained. You will need to replace the black question mark tool with the appropriate Macro
+from the Macros folder.

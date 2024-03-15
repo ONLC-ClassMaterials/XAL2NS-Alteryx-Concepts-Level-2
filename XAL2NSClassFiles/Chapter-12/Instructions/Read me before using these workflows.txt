@@ -1,0 +1,2 @@
+ You will need to install Twitter search from the Alteryx gallery to be able to run these workflows.
+You can find the twitter tool here :https://gallery.alteryx.com/#!app/Twitter-Search/574db168a248970bdc36d527

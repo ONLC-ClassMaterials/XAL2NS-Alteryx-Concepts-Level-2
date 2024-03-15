@@ -1,0 +1,3 @@
+DownloadData1,DownloadData2,DownloadData3,DownloadData4,DownloadData5,DownloadData6,DownloadData7,DownloadData8,DownloadData9,DownloadData10,DownloadData11,DownloadData12,DownloadData13,DownloadData14,DownloadData15,DownloadData16,DownloadData17,DownloadData18,DownloadData19,DownloadData20,DownloadData21,DownloadData22,DownloadData23
+IST,MaxTemperatureC,MeanTemperatureC,MinTemperatureC,DewPointC,MeanDewPointC,MinDewpointC,MaxHumidity,MeanHumidity,MinHumidity,MaxSeaLevelPressurehPa,MeanSeaLevelPressurehPa,MinSeaLevelPressurehPa,MaxVisibilityKm,MeanVisibilityKm,MinVisibilitykM,MaxWindSpeedKm/h,MeanWindSpeedKm/h,MaxGustSpeedKm/h,Precipitationmm,CloudCover,Events,WindDirDegrees<br/>
+2017-4-1,36,28,20,18,14,11,54,34,16,"","","",10,6,3,8,3,"",0.00,"","",-1<br/>

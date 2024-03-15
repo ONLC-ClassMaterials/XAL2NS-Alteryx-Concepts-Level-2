@@ -1,0 +1,4 @@
+The file XAL2NSClassFiles\Chapter-11\AdventureWorksDW2012_Data.mdf was not included in the GitHub repo
+because it was too large. It can be downloaded from this URL:
+
+https://onlcfiles.blob.core.windows.net/files/AdventureWorksDW2012_Data.mdf
